@@ -1,0 +1,3 @@
+[submodule "mediapipeDemos"]
+	path = mediapipeDemos
+	url = https://github.com/Rassibassi/mediapipeDemos
