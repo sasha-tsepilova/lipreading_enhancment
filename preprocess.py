@@ -50,7 +50,6 @@ def main(args):
         # Capture each frame 
             new_frame = np.zeros((96,96))
             results = face_mesh.process(frame_rgb)
-            print(results)
             multi_face_landmarks = results.multi_face_landmarks
 
             if multi_face_landmarks:
@@ -88,7 +87,6 @@ def main(args):
                     camera_matrix,
                     dist_coeff,
                 )
-                print(projected_model_points)
                 x_coords, y_coords = [point[0][0] for point in projected_model_points], [point[0][1] for point in projected_model_points]
                 x_min, x_max, y_min, y_max = min(x_coords), max(x_coords), min(y_coords), max(y_coords)
                 x_c, y_c = (x_min+x_max) // 2, (y_min+y_max) // 2
