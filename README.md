@@ -21,13 +21,13 @@ Depending on the characteristics of your computer you might need to change the f
 
 - `MULTIPLY_FRAMES` - creates as many copies of recently grabbed frame to simulate other fps for the model. Recommended settings 30/`REAL_FRAME_RATE`.
 
-- `FRAMES_PER_CHUNK` - How many frames should be considered as one chunk of video. Smaller value will use less system resources, but compromise the model prediction quality.
+- `FRAMES_PER_CHUNK` - How many frames should be considered as one chunk of video. Smaller value will use fewer system resources, but compromise the model prediction quality.
 
 We don't recommend changing any other parameters, as it might cause size issues during the model inference, but you are welcome to play with it.
 
 ## DEMO
-
-This demo is outdated, so the executed file has a different name, but apart from that this is the expected behaviour of the tool.
+You can watch the demo [here](https://drive.google.com/file/d/1UtgPi3JNWuB5-2rwrbtb4XAUTwNIGGzx/view?usp=sharing)
+This demo is outdated, so the executed file has a different name, but apart from that, this is the expected behavior of the tool.
 
 ## Acknowledgement
 
